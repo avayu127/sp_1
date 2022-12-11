@@ -14,5 +14,7 @@ int main()
     int* ptr = &a;
     cout << ptr << endl;
 
+    int cube = a * a * a;
+    cout << cube;
 }
 
