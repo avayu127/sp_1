@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
+int Cube(int a);
 
 int main()
 {
@@ -14,7 +15,13 @@ int main()
     int* ptr = &a;
     cout << ptr << endl;
 
-    int square = a * a;
-    cout << square;
+    cout << Cube(a);
 }
+    
+    int Cube(int a)
+{
+    return a * a * a;
+}
+int square = a * a;
+cout << square;
 
